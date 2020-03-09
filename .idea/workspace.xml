@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="19741222-dfc6-4e68-a53c-9ae3b20cc5b7" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1YqtEGR7JwwrGfyVcuULOgcqyJo" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/public" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/public" />
+      <recent name="$PROJECT_DIR$/src/main" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn package" />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="EmgcalculatorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Beta1" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.emguidance.assessment.markzeeman.emgcalculator.EmgcalculatorApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="19741222-dfc6-4e68-a53c-9ae3b20cc5b7" name="Default Changelist" comment="" />
+      <created>1583681838091</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583681838091</updated>
+      <workItem from="1583681845025" duration="7479000" />
+      <workItem from="1583702437627" duration="12610000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="378" y="154" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1583684515721">
+      <screen x="0" y="23" width="1280" height="717" />
+    </state>
+    <state x="378" y="154" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.23.1280.717@0.23.1280.717" timestamp="1583684515721" />
+    <state x="774" y="91" key="#com.intellij.ide.util.MemberChooser" timestamp="1583682669576">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="774" y="91" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1583682669576" />
+    <state width="1238" height="358" key="GridCell.Tab.0.bottom" timestamp="1583727383692">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="358" key="GridCell.Tab.0.bottom/0.0.1280.800/-1360.0.1360.768@0.0.1280.800" timestamp="1583715221510" />
+    <state width="1238" height="358" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1583727383692" />
+    <state width="1238" height="264" key="GridCell.Tab.0.bottom/0.23.1280.717@0.23.1280.717" timestamp="1583691991672" />
+    <state width="1238" height="174" key="GridCell.Tab.0.bottom/0.23.1280.722@0.23.1280.722" timestamp="1583691294181" />
+    <state width="1238" height="358" key="GridCell.Tab.0.center" timestamp="1583727383687">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="358" key="GridCell.Tab.0.center/0.0.1280.800/-1360.0.1360.768@0.0.1280.800" timestamp="1583715221504" />
+    <state width="1238" height="358" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1583727383687" />
+    <state width="1238" height="264" key="GridCell.Tab.0.center/0.23.1280.717@0.23.1280.717" timestamp="1583691991666" />
+    <state width="1238" height="174" key="GridCell.Tab.0.center/0.23.1280.722@0.23.1280.722" timestamp="1583691294178" />
+    <state width="1238" height="358" key="GridCell.Tab.0.left" timestamp="1583727383684">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="358" key="GridCell.Tab.0.left/0.0.1280.800/-1360.0.1360.768@0.0.1280.800" timestamp="1583715221501" />
+    <state width="1238" height="358" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1583727383684" />
+    <state width="1238" height="264" key="GridCell.Tab.0.left/0.23.1280.717@0.23.1280.717" timestamp="1583691991664" />
+    <state width="1238" height="174" key="GridCell.Tab.0.left/0.23.1280.722@0.23.1280.722" timestamp="1583691294177" />
+    <state width="1238" height="358" key="GridCell.Tab.0.right" timestamp="1583727383689">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="358" key="GridCell.Tab.0.right/0.0.1280.800/-1360.0.1360.768@0.0.1280.800" timestamp="1583715221507" />
+    <state width="1238" height="358" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1583727383689" />
+    <state width="1238" height="264" key="GridCell.Tab.0.right/0.23.1280.717@0.23.1280.717" timestamp="1583691991671" />
+    <state width="1238" height="174" key="GridCell.Tab.0.right/0.23.1280.722@0.23.1280.722" timestamp="1583691294180" />
+    <state width="1238" height="358" key="GridCell.Tab.1.bottom" timestamp="1583727383700">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="358" key="GridCell.Tab.1.bottom/0.0.1280.800/-1360.0.1360.768@0.0.1280.800" timestamp="1583715221523" />
+    <state width="1238" height="358" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1583727383700" />
+    <state width="1238" height="264" key="GridCell.Tab.1.bottom/0.23.1280.717@0.23.1280.717" timestamp="1583691991676" />
+    <state width="1238" height="174" key="GridCell.Tab.1.bottom/0.23.1280.722@0.23.1280.722" timestamp="1583691294187" />
+    <state width="1238" height="358" key="GridCell.Tab.1.center" timestamp="1583727383695">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="358" key="GridCell.Tab.1.center/0.0.1280.800/-1360.0.1360.768@0.0.1280.800" timestamp="1583715221517" />
+    <state width="1238" height="358" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1583727383695" />
+    <state width="1238" height="264" key="GridCell.Tab.1.center/0.23.1280.717@0.23.1280.717" timestamp="1583691991674" />
+    <state width="1238" height="174" key="GridCell.Tab.1.center/0.23.1280.722@0.23.1280.722" timestamp="1583691294184" />
+    <state width="1238" height="358" key="GridCell.Tab.1.left" timestamp="1583727383694">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="358" key="GridCell.Tab.1.left/0.0.1280.800/-1360.0.1360.768@0.0.1280.800" timestamp="1583715221513" />
+    <state width="1238" height="358" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1583727383694" />
+    <state width="1238" height="264" key="GridCell.Tab.1.left/0.23.1280.717@0.23.1280.717" timestamp="1583691991673" />
+    <state width="1238" height="174" key="GridCell.Tab.1.left/0.23.1280.722@0.23.1280.722" timestamp="1583691294182" />
+    <state width="1238" height="358" key="GridCell.Tab.1.right" timestamp="1583727383698">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="358" key="GridCell.Tab.1.right/0.0.1280.800/-1360.0.1360.768@0.0.1280.800" timestamp="1583715221520" />
+    <state width="1238" height="358" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1583727383698" />
+    <state width="1238" height="264" key="GridCell.Tab.1.right/0.23.1280.717@0.23.1280.717" timestamp="1583691991675" />
+    <state width="1238" height="174" key="GridCell.Tab.1.right/0.23.1280.722@0.23.1280.722" timestamp="1583691294186" />
+    <state width="600" height="424" key="javadoc.popup" timestamp="1583692488071">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="600" height="424" key="javadoc.popup/0.0.1280.800@0.0.1280.800" timestamp="1583692488071" />
+    <state x="402" y="13" key="refactoring.ChangeSignatureDialog" timestamp="1583692425492">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="402" y="13" key="refactoring.ChangeSignatureDialog/0.0.1280.800@0.0.1280.800" timestamp="1583692425492" />
+    <state x="305" y="185" width="670" height="675" key="run.anything.popup" timestamp="1583702595175">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="305" y="185" width="670" height="675" key="run.anything.popup/0.0.1280.800@0.0.1280.800" timestamp="1583702595175" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/emguidance/assessment/markzeeman/emgcalculator/model/Calculation.java</url>
+          <line>20</line>
+          <properties class="com.emguidance.assessment.markzeeman.emgcalculator.model.Calculation" method="getInputNumber1">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
