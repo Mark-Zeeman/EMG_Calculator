@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="19741222-dfc6-4e68-a53c-9ae3b20cc5b7" name="Default Changelist" comment="" />
+    <list default="true" id="19741222-dfc6-4e68-a53c-9ae3b20cc5b7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/emguidance/assessment/markzeeman/emgcalculator/service/CalculationsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emguidance/assessment/markzeeman/emgcalculator/service/CalculationsService.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +19,9 @@
         <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -70,6 +75,7 @@
       <updated>1583681838091</updated>
       <workItem from="1583681845025" duration="7479000" />
       <workItem from="1583702437627" duration="12610000" />
+      <workItem from="1598589735773" duration="8000" />
     </task>
     <servers />
   </component>
