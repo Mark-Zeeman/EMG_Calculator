@@ -37,7 +37,7 @@ public class CalculationsService {
     @Produces(MediaType.APPLICATION_JSON)
     public Response getCalculation(@PathParam("id") Long id) {
         Calculation calculation = repository.findById(id).orElseThrow(NotFoundException::new);
-        // I am a comment
+        // I am an edited comment
         logger.info("Processing getCalculation{id}" + calculation);
         return Response.ok(calculation).build();
     }
