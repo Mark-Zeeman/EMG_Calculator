@@ -19,6 +19,7 @@ public class Calculation {
     private Date dateCreated;
 
     public double getInputNumber1() {
+        
         return inputNumber1;
     }
 
