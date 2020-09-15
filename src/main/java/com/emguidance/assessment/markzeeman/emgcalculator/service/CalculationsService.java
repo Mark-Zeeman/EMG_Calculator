@@ -61,7 +61,8 @@ public class CalculationsService {
         // ZBHango
         String z=null;
         String response =null;
-
+        // Mark
+        String b=null;
         if(!validNumberCheck(inputNumber1, "inputNumber1").isEmpty()){
             response=validNumberCheck(inputNumber1,"inputNumber1");
         }
