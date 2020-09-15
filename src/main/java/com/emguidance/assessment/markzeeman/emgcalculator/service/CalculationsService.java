@@ -52,6 +52,7 @@ public class CalculationsService {
 
         logger.info("Processing postCalculation:  inputNumber1:" + inputNumber1+ "     inputNumber2"+ inputNumber2 + "    operator:"+operator );
         // Z
+        // HKJ
         String z=null;
         String response =null;
         // Mark
