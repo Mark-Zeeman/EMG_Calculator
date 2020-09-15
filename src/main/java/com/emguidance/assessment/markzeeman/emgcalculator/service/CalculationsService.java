@@ -57,6 +57,8 @@ public class CalculationsService {
         logger.info("Processing New Log:  inputNumber1:" + inputNumber1+ "     inputNumber2"+ inputNumber2 + "    operator:"+operator );
 
 
+        // ZBHango
+        String z=null;
         String response =null;
         // Mark
         String b=null;
