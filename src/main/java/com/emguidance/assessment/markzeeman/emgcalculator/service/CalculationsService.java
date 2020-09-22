@@ -55,6 +55,10 @@ public class CalculationsService {
 
         logger.info("Processing postCalculation:  inputNumber1:" + inputNumber1+ "     inputNumber2"+ inputNumber2 + "    operator:"+operator );
 
+        logger.info("Processing postCalculation:  inputNumber1:" + inputNumber1+ "     inputNumber2"+ inputNumber2 + "    operator:"+operator );
+
+        logger.info("Processing postCalculation:  inputNumber1:" + inputNumber1+ "     inputNumber2"+ inputNumber2 + "    operator:"+operator );
+
         String response =null;
         // Mark
         String b=null;
