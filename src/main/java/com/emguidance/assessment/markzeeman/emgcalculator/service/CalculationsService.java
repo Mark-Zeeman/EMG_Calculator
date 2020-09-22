@@ -40,6 +40,8 @@ public class CalculationsService {
         // I am an edited comment
 
         logger.info("Processing getCalculation{id}" + calculation);
+        logger.info("Processing getCalculation{idwe}" + calculation);
+
         return Response.ok(calculation).build();
     }
 
