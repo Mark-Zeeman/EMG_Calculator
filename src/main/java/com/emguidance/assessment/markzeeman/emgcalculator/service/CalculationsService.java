@@ -64,6 +64,9 @@ public class CalculationsService {
 
         // ZBHango
         String z=null;
+        logger.info("Processing New Log:  inputNumber1:" + inputNumber1+ "     inputNumber2"+ inputNumber2 + "    operator:"+operator );
+
+
         String response =null;
 
         logger.info("Processing postCalculation:  inputNumber1:" + inputNumber1+ "     inputNumber2"+ inputNumber2 + "    operator:"+operator );
