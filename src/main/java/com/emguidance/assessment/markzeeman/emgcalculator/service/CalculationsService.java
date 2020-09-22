@@ -37,10 +37,7 @@ public class CalculationsService {
     @Produces(MediaType.APPLICATION_JSON)
     public Response getCalculation(@PathParam("id") Long id) {
         Calculation calculation = repository.findById(id).orElseThrow(NotFoundException::new);
-<<<<<<< 9bec55229ccf72afc2516b8a8a4237db8c7cd47a
-=======
         // I am an edited comment
->>>>>>> dev commit
 
         logger.info("Processing getCalculation{id}" + calculation);
         return Response.ok(calculation).build();
@@ -55,11 +52,6 @@ public class CalculationsService {
 
         logger.info("Processing postCalculation:  inputNumber1:" + inputNumber1+ "     inputNumber2"+ inputNumber2 + "    operator:"+operator );
 
-        logger.info("Processing New Log:  inputNumber1:" + inputNumber1+ "     inputNumber2"+ inputNumber2 + "    operator:"+operator );
-
-
-        // ZBHango
-        String z=null;
         String response =null;
         // Mark
         String b=null;
