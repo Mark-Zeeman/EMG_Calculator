@@ -133,6 +133,7 @@ public class CalculationsService {
                     }
                     break;
                 default:answer ="inputOperator  :  "+inputOperator+ " is not an accepted operator for this calculation \n"+"Operators Accepted are: "+validOperators.toString();
+
             }
         }
 
