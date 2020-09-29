@@ -132,7 +132,7 @@ public class CalculationsService {
                             answer = String.valueOf(num1/num2);
                     }
                     break;
-                default:answer ="inputOperator  :  "+inputOperator+ " is not an accepted operator for this calculation \n"+"Operators Accepted are: "+validOperators.toString();
+                default:answer ="inputOperator  :  "+inputOperator+ " is not an accepted operator for this calculation \n"+"Operators Accepted are:"+validOperators.toString();
             }
         }
 
