@@ -129,7 +129,7 @@ public class CalculationsService {
                             answer = String.valueOf(num1/num2);
                     }
                     break;
-                default:answer ="inputOperator  :  "+inputOperator+ " is not an accepted operator for this calculation \n"+"Operators Accepted are: "+validOperators.toString();
+                default:answer ="inputOperator  :  "+inputOperator+ " is not an accepted operator for this calculation \n"+"Operators Accepted are:"+validOperators.toString();
             }
         }
 
@@ -139,7 +139,6 @@ public class CalculationsService {
     }
 
     private Integer isInteger(double answer){
-        System.out.println("answer: "+ answer);
         if(answer%1==0){
             return Integer.valueOf(String.valueOf(answer));
         }
