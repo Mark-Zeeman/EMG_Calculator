@@ -87,7 +87,7 @@ public class CalculationsService {
             calculation.setOperator(operator);
             calculation.setAnswer(answer);
             Calculation result = repository.save(calculation);
-
+    //Check calc
             logger.info("Processed postCalculation:  inputNumber1:" + inputNumber1+  "    operator:"+operator+"     inputNumber2"+ inputNumber2 +"    result:"+result.getAnswer());
             return Response.status(200).entity("\""+answer+"\"").build();
         }else{
@@ -129,7 +129,7 @@ public class CalculationsService {
                             answer = String.valueOf(num1/num2);
                     }
                     break;
-                default:answer ="inputOperator : "+inputOperator+ " is not an accepted operator for this calculation \n"+"Operators Accepted are:"+validOperators.toString();
+                default:answer ="inputOperator  :  "+inputOperator+ " is not an accepted operator for this calculation \n"+"Operators Accepted are:"+validOperators.toString();
             }
         }
 
