@@ -39,9 +39,6 @@ public class CalculationsService {
         Calculation calculation = repository.findById(id).orElseThrow(NotFoundException::new);
         // I am an edited comment
 
-        // I am an edited comment
-
-
         logger.info("Processing getCalculation{id}" + calculation);
         logger.info("Processing getCalculation{idwe}" + calculation);
 
@@ -142,7 +139,6 @@ public class CalculationsService {
     }
 
     private Integer isInteger(double answer){
-        System.out.println("answer: is "+ answer);
         if(answer%1==0){
             return Integer.valueOf(String.valueOf(answer));
         }
