@@ -126,6 +126,7 @@ public class CalculationsService {
     }
 
     private Integer isInteger(double answer){
+        System.out.println("answer: "+ answer);
         if(answer%1==0){
             return Integer.valueOf(String.valueOf(answer));
         }
