@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19741222-dfc6-4e68-a53c-9ae3b20cc5b7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/emguidance/assessment/markzeeman/emgcalculator/service/CalculationsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emguidance/assessment/markzeeman/emgcalculator/service/CalculationsService.java" afterDir="false" />
     </list>
@@ -78,7 +79,7 @@
       <workItem from="1583702437627" duration="12610000" />
       <workItem from="1598589735773" duration="8000" />
       <workItem from="1599075157271" duration="284000" />
-      <workItem from="1603209952753" duration="78000" />
+      <workItem from="1601390003509" duration="87000" />
     </task>
     <servers />
   </component>
