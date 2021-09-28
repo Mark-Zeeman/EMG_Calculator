@@ -1,7 +1,17 @@
 package com.emguidance.assessment.markzeeman.emgcalculator.service;
 
 import com.emguidance.assessment.markzeeman.emgcalculator.model.Calculation;
+import com.emguidance.assessment.markzeeman.emgcalculator.model.Profile;
+import com.emguidance.assessment.markzeeman.emgcalculator.model.ProfileHolder;
 import com.emguidance.assessment.markzeeman.emgcalculator.repository.CalculationsRepository;
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.json.JsonMapper;
+import com.fasterxml.jackson.databind.util.JSONWrappedObject;
+import com.google.gson.Gson;
+import com.oracle.javafx.jmx.json.JSONException;
+import org.json.JSONArray;
+import org.json.JSONObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
@@ -9,9 +19,9 @@ import org.springframework.stereotype.Service;
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
+import java.lang.reflect.Field;
 import java.net.URISyntaxException;
-import java.util.ArrayList;
-import java.util.Date;
+import java.util.*;
 
 @Service
 @Path("calculations")
@@ -43,6 +53,113 @@ public class CalculationsService {
         logger.info("Processing getCalculation{idwe}" + calculation);
 
         return Response.ok(calculation).build();
+    }
+
+    @POST
+    @Path("evaluateProfileDetails")
+    @Consumes(MediaType.APPLICATION_JSON)
+    @Produces(MediaType.APPLICATION_JSON)
+    public Response getSome(ProfileHolder profile) {
+
+        String[] requiredFields = {"dob", "idNumber", "gender","address","provinces", "schools", "grades","serialNumber", "imei"};
+
+        List<String> fieldsStillRequired = new ArrayList<>();
+
+        for(String requiredField: requiredFields)
+        {
+            Field field = null;
+            try {
+                field = profile.getProfile().getClass().getDeclaredField(requiredField);
+                field.setAccessible(true);
+                Object value = field.get(profile.getProfile());
+
+                if(value==null){
+                    fieldsStillRequired.add(requiredField);
+                }
+
+                System.out.println("value : " +value);
+            } catch (NoSuchFieldException | IllegalAccessException e) {
+
+                System.out.println("No such field exists.");
+
+                e.printStackTrace();
+            }
+
+        }
+
+        return Response.ok(fieldsStillRequired).build();
+    }
+
+    @POST
+    @Path("evaluateandupdateprofiledetails")
+    @Consumes(MediaType.APPLICATION_JSON)
+    @Produces(MediaType.APPLICATION_JSON)
+    public Response getSome2(ProfileHolder profile) {
+
+        String[] requiredFields = {"dob", "idNumber", "gender","address","provinces", "schools", "grades","serialNumber", "imei"};
+
+        List<String> fieldsStillRequired = new ArrayList<>();
+
+        for(String requiredField: requiredFields)
+        {
+            Field field = null;
+            try {
+                field = profile.getProfile().getClass().getDeclaredField(requiredField);
+                field.setAccessible(true);
+                Object value = field.get(profile.getProfile());
+
+                if(value==null){
+                    fieldsStillRequired.add(requiredField);
+                }
+
+                System.out.println("value : " +value);
+            } catch (NoSuchFieldException | IllegalAccessException e) {
+
+                System.out.println("No such field exists.");
+
+                e.printStackTrace();
+            }
+
+        }
+
+        for(String requiredField: fieldsStillRequired)
+        {
+            Field field = null;
+            try {
+                field = profile.getProfile().getClass().getDeclaredField(requiredField);
+                field.setAccessible(true);
+                Object value = field.get(profile.getProfile());
+
+                if(value==null){
+                    field.set(profile.getProfile(),"Updated");
+                }
+
+                System.out.println("value : " +value);
+            } catch (NoSuchFieldException | IllegalAccessException e) {
+
+                System.out.println("No such field exists.");
+
+                e.printStackTrace();
+            }
+
+        }
+
+        return Response.ok(profile).build();
+    }
+
+
+
+    public static Map<String, Object> toMap(JSONObject jsonobj) throws JSONException, org.json.JSONException {
+        Map<String, Object> map = new HashMap<String, Object>();
+        Iterator<String> keys = jsonobj.keys();
+        while(keys.hasNext()) {
+            String key = keys.next();
+            Object value = jsonobj.get(key);
+            if (value instanceof JSONObject) {
+                value = toMap((JSONObject) value);
+            }
+            map.put(key, value);
+        }   return map;
     }
 
 
